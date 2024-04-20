@@ -1,0 +1,21 @@
+
+declare Foo
+begin
+	int var1;
+	int var2;
+
+	byte var3 [4];
+end
+
+declare Bar
+begin
+	Foo foo1;
+	Foo foo2;
+
+	union Baz
+	begin
+		elem int var;
+		elem Foo foo;
+	end
+end
+
