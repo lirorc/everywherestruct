@@ -1,7 +1,7 @@
 
 declare Foo
 begin
-	int var1;
+	unsigned byte var1;
 	int var2;
 
 	byte var3 [4];
@@ -16,6 +16,6 @@ begin
 	begin
 		elem int var;
 		elem Foo foo;
-	end
+	end union
 end
 
